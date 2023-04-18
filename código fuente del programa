@@ -1,0 +1,67 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+    double n;
+    double z;
+    double p;
+    double q;
+    double e;
+    double respuesta;
+    double r1;
+    cout << "introduzca el valor de n" << endl;
+    cin >> n;
+    cout << "introduzca el valor de z"<< endl;
+    cin >> z;
+    cout << "introduzca el valor de p"<< endl;
+    cin >> p;
+    cout << "introduzca el valor de q"<< endl;
+    cin >> q;
+    cout << "introduzca el valor de e"<< endl;
+    cin >> e;
+    
+    
+    respuesta = ((z*z) * p * q * n) / ((e*e) * (n - 1) + (z*z) * p * q);
+    cout << respuesta << endl;
+
+    bool continuar = true;
+
+    char respuesta1;
+      cout << "¿Quieres continuar? (S/N): ";
+      cin >> respuesta1;
+      if (respuesta1 == 'N' || respuesta1 == 'n') {
+         continuar = false;
+      }
+
+
+    while(continuar){
+    double n;
+    double z;
+    double p;
+    double q;
+    double e;
+    double respuesta;
+    double r1;
+    cout << "introduzca el valor de n" << endl;
+    cin >> n;
+    cout << "introduzca el valor de z"<< endl;
+    cin >> z;
+    cout << "introduzca el valor de p"<< endl;
+    cin >> p;
+    cout << "introduzca el valor de q"<< endl;
+    cin >> q;
+    cout << "introduzca el valor de e"<< endl;
+    cin >> e;
+    
+    
+    respuesta = ((z*z) * p * q * n) / ((e*e) * (n - 1) + (z*z) * p * q);
+    cout << respuesta << endl;
+    
+   
+    }
+    
+
+    return 0;
+}
